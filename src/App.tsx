@@ -50,7 +50,7 @@ function App() {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <img 
-                src="/profile.jpg" 
+                src="./profile.jpg" 
                 alt="Juan Antonio Garcia - Web Developer"
                 className="w-full h-full object-cover"
               />
@@ -744,7 +744,7 @@ function App() {
                 <div className="flex items-center justify-center space-x-4">
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-xl font-bold overflow-hidden">
                     <img 
-                      src="/ampliologo.png" 
+                      src="./ampliologo.png" 
                       alt="Amplio Fitness"
                       className="w-full h-full object-cover"
                     />
@@ -776,7 +776,7 @@ function App() {
                 <div className="flex items-center justify-center space-x-4">
                   <div className="w-16 h-16 rounded-full overflow-hidden">
                     <img 
-                      src="/2blendz.jpg" 
+                      src="./2blendz.jpg" 
                       alt="Jose Rayos"
                       className="w-full h-full object-cover"
                     />
