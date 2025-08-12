@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
 import { Button } from '../components/ui/button'
-import { ExternalLink, Github, Globe, Smartphone, ShoppingCart, Dumbbell, Mail, Linkedin } from 'lucide-react'
+import { Github, Globe, Dumbbell, Mail, Linkedin } from 'lucide-react'
 
 const projects = [
   {
@@ -183,19 +183,6 @@ function Portfolio() {
                     </div>
 
                     {/* Stats or Testimonial */}
-                    {project.stats && (
-                      <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 rounded-lg">
-                        <h4 className="font-semibold text-green-800 dark:text-green-400 mb-2">Results:</h4>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm">
-                          {Object.values(project.stats).map((stat, idx) => (
-                            <div key={idx} className="text-green-700 dark:text-green-300">
-                              {stat}
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
                     {project.testimonial && (
                       <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
                         <blockquote className="text-slate-700 dark:text-slate-300 italic mb-2">
