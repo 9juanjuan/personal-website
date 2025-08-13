@@ -28,7 +28,17 @@ export const Route = createRootRoute({
               >
                 Portfolio
               </Link>
-              <a href="#contact" className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition-colors">Contact</a>
+              <button 
+                onClick={() => {
+                  const contactSection = document.getElementById('contact');
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition-colors"
+              >
+                Contact
+              </button>
             </div>
 
             {/* Mobile Menu Toggle - CSS Only */}
@@ -60,12 +70,17 @@ export const Route = createRootRoute({
                   >
                     Portfolio
                   </Link>
-                  <a 
-                    href="#contact" 
-                    className="block px-3 py-2 text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition-colors rounded-md"
+                  <button 
+                    onClick={() => {
+                      const contactSection = document.getElementById('contact');
+                      if (contactSection) {
+                        contactSection.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }}
+                    className="block w-full text-left px-3 py-2 text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition-colors rounded-md"
                   >
                     Contact
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
