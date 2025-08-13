@@ -440,11 +440,11 @@ function Index() {
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">Easy-to-use Content Management System</span>
+                <span className="text-sm">Easy-to-update Content Management System (WordPress, Wix, or similar)</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">Basic SEO setup (titles, descriptions, keywords)</span>
+                <span className="text-sm">Basic SEO setup (page titles, meta descriptions, keywords)</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 mr-3 flex-shrink-0"></div>
@@ -456,7 +456,11 @@ function Index() {
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">1 hour of training on site updates</span>
+                <span className="text-sm">Basic security (SSL certificate, essential updates, monthly backups)</span>
+              </li>
+              <li className="flex items-start">
+                <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 mr-3 flex-shrink-0"></div>
+                <span className="text-sm">Personal 1:1 walkthrough on managing your site</span>
               </li>
             </ul>
             <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg mb-6">
@@ -502,11 +506,11 @@ function Index() {
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-green-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">E-commerce store with up to 20 products</span>
+                <span className="text-sm">E-commerce store with up to 20 products + payment gateway setup</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-green-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">Google Analytics setup for traffic tracking</span>
+                <span className="text-sm">Google Analytics setup with goal/conversion tracking</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-green-500 mt-2 mr-3 flex-shrink-0"></div>
@@ -514,7 +518,7 @@ function Index() {
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-green-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">Security setup (SSL, malware protection)</span>
+                <span className="text-sm">Enhanced security (SSL, malware protection, firewall)</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-green-500 mt-2 mr-3 flex-shrink-0"></div>
@@ -551,7 +555,7 @@ function Index() {
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">Unlimited pages & advanced functionality</span>
+                <span className="text-sm">Custom page count and advanced functionality (bookings, memberships, custom forms)</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0"></div>
@@ -559,7 +563,7 @@ function Index() {
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">Conversion Rate Optimization (A/B testing)</span>
+                <span className="text-sm">Conversion Rate Optimization (A/B testing for key pages)</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0"></div>
@@ -571,7 +575,7 @@ function Index() {
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-sm">Ongoing monthly maintenance & monitoring</span>
+                <span className="text-sm">Ongoing monthly maintenance (security updates, backups, monitoring, content edits)</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 rounded-full bg-purple-500 mt-2 mr-3 flex-shrink-0"></div>
