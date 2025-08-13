@@ -1,11 +1,15 @@
-import { createRouter, RouterProvider } from '@tanstack/react-router'
+import { createRouter, RouterProvider, createHashHistory } from '@tanstack/react-router'
 
 // Import the generated route tree
 import { routeTree } from './routeTree.gen'
 
+// Create hash history for static hosting (GitHub Pages)
+const hashHistory = createHashHistory()
+
 // Create a new router instance
 const router = createRouter({ 
   routeTree,
+  history: hashHistory,
   scrollRestoration: true
 })
 

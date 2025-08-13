@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import { Button } from '../components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
 import { 
@@ -60,9 +60,11 @@ function Index() {
             <Mail className="mr-2 h-4 w-4" />
             Get Free Quote
           </Button>
-          <Button variant="outline" size="lg" href="/portfolio">
-            <ExternalLink className="mr-2 h-4 w-4" />
-            View Portfolio
+          <Button variant="outline" size="lg" asChild>
+            <Link to="/portfolio" className="flex items-center">
+              <ExternalLink className="mr-2 h-4 w-4" />
+              View Portfolio
+            </Link>
           </Button>
         </div>
       </div>
